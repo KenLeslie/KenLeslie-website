@@ -2,18 +2,26 @@
 body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* Set a background color for the entire page */
 body {
     background-color: #deeppink;
-    font-family: Arial, sans-serif;
+    color: #000000; /* Indigo */
+    text-align: center;
+    background-image: url('ccy2fky3y6j71.jpg'); /* Replace with your own background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
 }
 
 /* Style the header */
 header {
-    background-color: #hotpink;
-    color: #blueviolet;
+    background-color: #ff69b4; /* Hot Pink */
+    color: #000000; /* Dark Violet */
     text-align: center;
     padding: 20px;
 }
@@ -31,43 +39,44 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #lightgreen;
+    color: #00ff00; /* Lime Green */
     font-weight: bold;
 }
 
 /* Style the main content */
 main {
     padding: 20px;
-    background-color: #lightseagreen;
+    background-color: #20b2aa; /* Light Sea Green */
     margin: 20px;
     border-radius: 5px;
 }
 
 /* Style headings */
-h1 {
+h1, h2, h3, h4 {
     font-size: 30px;
-    color: #springgreen;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #00ff7f; /* Spring Green */
 }
 
 h2 {
-    font-size: 30px;
-    color: #lightgoldenrodyellow;
+    color: #ffd700; /* Gold */
 }
 
 h3 {
-    font-size: 30px;
-    color: #darkcyan;
+    color: #008b8b; /* Dark Cyan */
 }
 
 h4 {
-    font-size: 30px;
-    color: #darkorchid;
+    color: #9932cc; /* Dark Orchid */
 }
 
 /* Style the footer */
 footer {
-    background-color: #black;
-    color: #yellowgreen;
+    background-color: #000; /* Black */
+    color: #adff2f; /* Green Yellow */
     text-align: center;
     padding: 10px;
 }
@@ -82,43 +91,10 @@ a:hover {
     text-decoration: underline;
 }
 
-
-
-body {
-    background-image: url('ccy2fky3y6j71.jpg'); /* Replace with your own background image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    font-family: 'One Piece Font', sans-serif; /* Replace with a One Piece-style font */
-    color: #4px 4px 4px deeppink color rgb(255, 20, 147);
-    text-shadow: 8px rebeccapurple; /* Add a text shadow for better visibility */
-    text-align: center;
-    padding: 30px;
-}
-
-/* Style the headings */
-h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-size: 30px;
-    color: #rgb(255, 0, 0);; /* One Piece yellow */
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-/* Style the paragraphs */
-p {
-    font-size: 30px;
-}
-
 /* Add a One Piece logo watermark */
 body::before {
     content: '';
-    background-image: url('ccy2fky3y6j71'); /* Replace with a One Piece logo image */
+    background-image: url('ccy2fky3y6j71.jpg'); /* Replace with a One Piece logo image */
     background-size: contain;
     background-repeat: no-repeat;
     opacity: 0.2;
